@@ -193,6 +193,7 @@ header .glyphicon {
     margin-top: 10px;
     padding-bottom: auto;
 }
+
 .navbar-default .navbar-nav > li > p {
     color: #FFF;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -361,4 +362,18 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
     margin-bottom: 30px;
     font-size: 14px;
     line-height: 1.75;
+}
+
+.modal-footer > p > a {
+    display: inline;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    color: #000;
+    outline: 0;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
 }
